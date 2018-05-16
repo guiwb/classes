@@ -3,11 +3,11 @@
     "minimum-stability": "dev",
     "type": "library",
     "description": "Classes PHP",
-    "homepage": "https://github.com/hcodebr/php-classes",
+    "homepage": "https://github.com/guiwb/classes",
     "authors": [
         {
-            "name": "Hcode Treinamentos",
-            "email": "suporte@hcode.com.br"
+            "name": "Guilherme Barbosa",
+            "email": "gui.wb@hotmail.com"
         }
     ],
     "require": {
