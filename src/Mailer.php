@@ -1,6 +1,6 @@
 <?php 
 
-namespace Hcode;
+namespace guiwb;
 
 use Rain\Tpl;
 
@@ -8,7 +8,7 @@ class Mailer {
 
 	const USERNAME = "senderguiwb@gmail.com";
 	const PASSWORD = "4c3ss0@sender";
-	const NAME_FROM = "Hcode Store";
+	const NAME_FROM = "guiwb";
 
 	private $mail;
 

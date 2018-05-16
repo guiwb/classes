@@ -1,6 +1,6 @@
 <?php 
 
-namespace Hcode;
+namespace guiwb;
 
 class PageAdmin extends Page {
 

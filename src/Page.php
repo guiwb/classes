@@ -1,10 +1,10 @@
 <?php 
 
-namespace Hcode;
+namespace guiwb;
 
 use Rain\Tpl;
 
-class page {
+class Page {
 
 	private $tpl;
 	private $options = [];
@@ -16,8 +16,6 @@ class page {
 
 	public function __construct($opts = array(), $tpl_dir = "/views/")
 	{
-
-		// $this->defaults["data"]["session"] = $_SESSION;
 
 		$this->options = array_merge($this->defaults, $opts);
 
@@ -33,7 +31,7 @@ class page {
 
 		$this->setData($this->options["data"]);
 
-		if($this->options["header"] === true) $this->tpl->draw("header");
+		if ($this->options["header"] === true) $this->tpl->draw("header");
 
 	}
 
